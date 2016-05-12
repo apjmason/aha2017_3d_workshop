@@ -3,12 +3,12 @@ guid: 2d62d401bc71d4d8c8085dc019cd62a5
 timeCreated: 1462909222
 licenseType: Free
 SketchUpImporter:
-  generateBackFace: 0
+  generateBackFace: 1
   mergeCoplanarFaces: 1
-  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000
+  selectedNodes: 
   assetHash:
     serializedVersion: 2
-    Hash: 09a14a0ff6782c07e92b696e6e2e1a74
+    Hash: e4c4105c8f38c6471964a6466f576c4a
   longitude: -105.242139
   latitude: 40.018309
   northCorrection: -0
