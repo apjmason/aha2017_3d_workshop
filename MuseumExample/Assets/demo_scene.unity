@@ -582,8 +582,8 @@ Transform:
   m_PrefabParentObject: {fileID: 400000, guid: c1c53d94788ba459e88d5a5a05c82de6, type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1301502741}
-  m_LocalRotation: {x: 0.6312329, y: 0.37616634, z: -0.33774912, w: 0.5881917}
-  m_LocalPosition: {x: 0.426, y: 1.138, z: -0.455}
+  m_LocalRotation: {x: 0.62895346, y: 0.368083, z: -0.31897995, w: 0.6059573}
+  m_LocalPosition: {x: -0.005, y: -0.008, z: -0.004}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1531929678}
@@ -753,7 +753,7 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.3
-  m_Center: {x: 0.46, y: 0.98, z: -0.48}
+  m_Center: {x: 0, y: -0.13, z: -0.02}
 --- !u!114 &1531929676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -802,7 +802,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1531929672}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.797}
+  m_LocalPosition: {x: 0, y: 0, z: -1.247}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1301502742}
@@ -810,7 +810,7 @@ RectTransform:
   m_RootOrder: 7
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4.42988, y: 0.325}
+  m_AnchoredPosition: {x: -3.998, y: 1.476}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1531929679
@@ -968,7 +968,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: I am a statue! Here is my historical context.... blah blah blah blah blah.
+  m_Text: 'Old Woman Effigy Bottle
+
+    Site: Pecan Point
+
+    Hampson ID: GB_41567
+
+    CC-BY-NC-SA'
 --- !u!222 &1813663610
 CanvasRenderer:
   m_ObjectHideFlags: 0
