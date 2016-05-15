@@ -7,11 +7,13 @@ public class PieceInfoDisplay : MonoBehaviour{
 
     Text text;
     Dictionary<char, float> dict;
+    bool showingText;
 
 	// Use this for initialization
 	void Start () {
         text = GetComponent<Text>();
         dict = new Dictionary<char, float>();
+        showingText = false;
 	}
 	
 	// Update is called once per frame
@@ -19,7 +21,7 @@ public class PieceInfoDisplay : MonoBehaviour{
 	
 	}
 
-    public void ShowText()
+    private void ShowText()
     {
         GameObject textObj = GameObject.FindGameObjectWithTag("TextDisplay");
         TextMesh textMesh = textObj.GetComponent<TextMesh>();
@@ -30,15 +32,29 @@ public class PieceInfoDisplay : MonoBehaviour{
         Bounds sculptureBound = this.GetComponentInChildren<MeshRenderer>().bounds;
         Vector3 textPos = transform.position + new Vector3(sculptureBound.extents.x + 0.2f, render.bounds.extents.y, 0f);
         textObj.transform.position = textPos;
-        
         render.enabled = true;
     }
 
-    public void hideText()
+    private void HideText()
     {
+        showingText = false;
         GameObject textObj = GameObject.FindGameObjectWithTag("TextDisplay");
         MeshRenderer render = textObj.GetComponentInChildren<MeshRenderer>();
         render.enabled = false;
+    }
+
+    public void ToggleText()
+    {
+        if (showingText)
+        {
+            showingText = false;
+            HideText();
+        }
+        else
+        {
+            showingText = true;
+            ShowText();
+        }
     }
 
     private void FitToWidth(GameObject textObj, TextMesh textMesh, float wantedWidth)

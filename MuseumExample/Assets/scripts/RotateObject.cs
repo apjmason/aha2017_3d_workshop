@@ -23,7 +23,7 @@ public class RotateObject : MonoBehaviour {
         }
 	}
 
-    public void startRotation()
+    private void StartRotation()
     {
         transform.localScale = origScale * 2;
         Vector3 translation = new Vector3(0f, 0.25f, 0f);
@@ -31,11 +31,24 @@ public class RotateObject : MonoBehaviour {
         rotating = true;
     }
 
-    public void stopRotation()
+    private void StopRotation()
     {
-        rotating = false;
         this.transform.position = origPosition;
         this.transform.rotation = origRotation;
         this.transform.localScale = origScale;
+        
+    }
+
+    public void ToggleRotation()
+    {
+        if (rotating)
+        {
+            rotating = false;
+            StopRotation();
+        }
+        else
+        {
+            StartRotation();
+        }
     }
 }
