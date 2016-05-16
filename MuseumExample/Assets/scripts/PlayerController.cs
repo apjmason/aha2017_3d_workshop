@@ -4,14 +4,15 @@ using System.Collections;
 public class PlayerController : MonoBehaviour
 {
     public GameObject player;
+    public GameObject head;
     private bool hasGyro = false;
     private Vector3 previousLook;
     private Vector3 offset;
     private float curWalkingSpeed;
     private Vector3 translateBy;
-    private float velocityNeededToStartWalking = 0.01f;
+    private float velocityNeededToStartWalking = 0.02f;
     private SineFit fitter = new SineFit();
-    float maxWalkingSpeed = 2.5f;
+    float maxWalkingSpeed = 1.5f;
     // Use this for initialization
     void Start()
     {
@@ -30,14 +31,14 @@ public class PlayerController : MonoBehaviour
     {
         if (hasGyro)
         {
-            Quaternion gyroRaw = Input.gyro.attitude;
-            Quaternion gyroLH = new Quaternion(gyroRaw.x, gyroRaw.y, -gyroRaw.z, -gyroRaw.w);
-            Quaternion gyroInUnityCameraCoordinates = Quaternion.Euler(90, 0, 0) * gyroLH;
-            this.transform.rotation = gyroInUnityCameraCoordinates;
+            //Quaternion gyroRaw = Input.gyro.attitude;
+            //Quaternion gyroLH = new Quaternion(gyroRaw.x, gyroRaw.y, -gyroRaw.z, -gyroRaw.w);
+            //Quaternion gyroInUnityCameraCoordinates = Quaternion.Euler(90, 0, 0) * gyroLH;
+            //this.transform.rotation = gyroInUnityCameraCoordinates;
 
             // WALK IN PLACE: MOVE THE CAMERA FORWARD WHEN SIDE-TO-SIDE WALKING IN PLACE MOTION IS DETECTED:
-
-            Vector3 lookDirection = this.transform.TransformDirection(new Vector3(0, 0, 1));
+     
+            Vector3 lookDirection = head.transform.TransformDirection(new Vector3(0, 0, 1));
             // FIRST: Add recent acceleration input events to the sine fit data stream
 
             // To avoid inadvertent walking when pickup up or putting down the device (or during other fast movements)

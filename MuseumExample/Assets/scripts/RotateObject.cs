@@ -26,7 +26,7 @@ public class RotateObject : MonoBehaviour {
     private void StartRotation()
     {
         transform.localScale = origScale * 2;
-        Vector3 translation = new Vector3(0f, 0.25f, 0f);
+        Vector3 translation = new Vector3(0f, 0.5f, 0f);
         this.transform.position = origPosition + translation;
         rotating = true;
     }
