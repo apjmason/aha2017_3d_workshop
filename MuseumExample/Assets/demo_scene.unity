@@ -107,7 +107,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 180407416}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.2648039, y: 2.1924791, z: -1.8978033}
+  m_LocalPosition: {x: -2.27, y: 1.5, z: -3.78}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -377,7 +377,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 2
 --- !u!1 &698342321
 GameObject:
   m_ObjectHideFlags: 0
@@ -602,6 +602,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 180407416}
+  head: {fileID: 2125618275}
 --- !u!1 &1301502741
 GameObject:
   m_ObjectHideFlags: 0
@@ -612,7 +613,7 @@ GameObject:
   - 4: {fileID: 1301502742}
   - 33: {fileID: 1301502745}
   - 23: {fileID: 1301502744}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -707,7 +708,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: b8b03d395f5734e98af91ccf44f9bf47, type: 2}
       propertyPath: autoUntiltHead
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000004, guid: b8b03d395f5734e98af91ccf44f9bf47, type: 2}
+      propertyPath: m_ClearFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b8b03d395f5734e98af91ccf44f9bf47, type: 2}
@@ -726,7 +731,7 @@ GameObject:
   - 114: {fileID: 1531929674}
   - 114: {fileID: 1531929673}
   - 114: {fileID: 1531929679}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Horus_BM
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -880,8 +885,8 @@ GameObject:
   - 23: {fileID: 1587879647}
   - 114: {fileID: 1587879652}
   - 114: {fileID: 1587879651}
-  m_Layer: 0
-  m_Name: Sphere
+  m_Layer: 8
+  m_Name: Light Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1260,7 +1265,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_EventMask:
     serializedVersion: 2
-    m_Bits: 4294967291
+    m_Bits: 4294967240
 --- !u!20 &1981162635 stripped
 Camera:
   m_PrefabParentObject: {fileID: 2000004, guid: b8b03d395f5734e98af91ccf44f9bf47,
@@ -1308,3 +1313,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 60270cf52a5e94998a5a335989159738, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &2125618275 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100008, guid: b8b03d395f5734e98af91ccf44f9bf47, type: 2}
+  m_PrefabInternal: {fileID: 1316676525}
