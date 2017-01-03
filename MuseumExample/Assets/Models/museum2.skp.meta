@@ -1,0 +1,223 @@
+fileFormatVersion: 2
+guid: e031b69e8b35247b9b14b669959235d9
+timeCreated: 1483416463
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f0000003000000031000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 5efe05cacaa31165081547b5c0812447
+  longitude: -105.242139
+  latitude: 40.018309
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 15.842625, y: 20.89804, z: 45.966118}
+      lookAt: {x: 8.366319, y: 11.665695, z: 20.724245}
+      up: {x: -0.09398289, y: 0.94365346, z: -0.31730965}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Building
+    100002: //RootNode
+    100004: pedestal
+    100006: pedestal 1
+    100008: pedestal 10
+    100010: pedestal 11
+    100012: pedestal 12
+    100014: pedestal 13
+    100016: pedestal 14
+    100018: pedestal 15
+    100020: pedestal 2
+    100022: pedestal 3
+    100024: pedestal 4
+    100026: pedestal 5
+    100028: pedestal 6
+    100030: pedestal 7
+    100032: pedestal 8
+    100034: pedestal 9
+    100036: pillar
+    100038: pillar 1
+    100040: pillar 2
+    100042: pillar 3
+    100044: pillar 4
+    100046: pillar 5
+    100048: Pillars
+    100050: Roof
+    400000: Building
+    400002: //RootNode
+    400004: pedestal
+    400006: pedestal 1
+    400008: pedestal 10
+    400010: pedestal 11
+    400012: pedestal 12
+    400014: pedestal 13
+    400016: pedestal 14
+    400018: pedestal 15
+    400020: pedestal 2
+    400022: pedestal 3
+    400024: pedestal 4
+    400026: pedestal 5
+    400028: pedestal 6
+    400030: pedestal 7
+    400032: pedestal 8
+    400034: pedestal 9
+    400036: pillar
+    400038: pillar 1
+    400040: pillar 2
+    400042: pillar 3
+    400044: pillar 4
+    400046: pillar 5
+    400048: Pillars
+    400050: Roof
+    2300000: Building
+    2300002: pedestal
+    2300004: pedestal 1
+    2300006: pedestal 10
+    2300008: pedestal 11
+    2300010: pedestal 12
+    2300012: pedestal 13
+    2300014: pedestal 14
+    2300016: pedestal 15
+    2300018: pedestal 2
+    2300020: pedestal 3
+    2300022: pedestal 4
+    2300024: pedestal 5
+    2300026: pedestal 6
+    2300028: pedestal 7
+    2300030: pedestal 8
+    2300032: pedestal 9
+    2300034: pillar
+    2300036: pillar 1
+    2300038: pillar 2
+    2300040: pillar 3
+    2300042: pillar 4
+    2300044: pillar 5
+    2300046: Roof
+    3300000: Building
+    3300002: pedestal
+    3300004: pedestal 1
+    3300006: pedestal 10
+    3300008: pedestal 11
+    3300010: pedestal 12
+    3300012: pedestal 13
+    3300014: pedestal 14
+    3300016: pedestal 15
+    3300018: pedestal 2
+    3300020: pedestal 3
+    3300022: pedestal 4
+    3300024: pedestal 5
+    3300026: pedestal 6
+    3300028: pedestal 7
+    3300030: pedestal 8
+    3300032: pedestal 9
+    3300034: pillar
+    3300036: pillar 1
+    3300038: pillar 2
+    3300040: pillar 3
+    3300042: pillar 4
+    3300044: pillar 5
+    3300046: Roof
+    4300000: Mesh pillar
+    4300002: Mesh Roof
+    4300004: Mesh Building
+    4300006: Mesh pedestal
+    6400000: Building
+    6400002: pedestal
+    6400004: pedestal 1
+    6400006: pedestal 10
+    6400008: pedestal 11
+    6400010: pedestal 12
+    6400012: pedestal 13
+    6400014: pedestal 14
+    6400016: pedestal 15
+    6400018: pedestal 2
+    6400020: pedestal 3
+    6400022: pedestal 4
+    6400024: pedestal 5
+    6400026: pedestal 6
+    6400028: pedestal 7
+    6400030: pedestal 8
+    6400032: pedestal 9
+    6400034: pillar
+    6400036: pillar 1
+    6400038: pillar 2
+    6400040: pillar 3
+    6400042: pillar 4
+    6400044: pillar 5
+    6400046: Roof
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

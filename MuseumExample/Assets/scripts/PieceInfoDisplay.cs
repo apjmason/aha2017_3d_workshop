@@ -27,7 +27,7 @@ public class PieceInfoDisplay : MonoBehaviour{
         TextMesh textMesh = textObj.GetComponent<TextMesh>();
         MeshRenderer render = textObj.GetComponentInChildren<MeshRenderer>();
         textMesh.text = text.text;
-        FitToWidth(textObj, textMesh, 1);
+        FitToWidth(textObj, textMesh, 30);
 
         Bounds sculptureBound = this.GetComponentInChildren<MeshRenderer>().bounds;
         Vector3 textPos = transform.position + new Vector3(sculptureBound.extents.x + 0.2f, render.bounds.extents.y, 0f);
