@@ -2,7 +2,7 @@ title: 3D Design and Virtual Reality
 description: Macalester College Spring Professional Activities Workshop 2016
 google_analytics: 
 show_downloads: true
-theme: jekyll-theme-tactile
+theme: jekyll-theme-architect
 
 gems:
   - jekyll-mentions
