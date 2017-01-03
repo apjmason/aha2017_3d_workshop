@@ -1,21 +1,30 @@
 ### Welcome.
-3D modeling and Virtual Reality (VR) are exciting fields that have seen dramatic growth recently due to the availability of low cost hardware. These technologies allow users to immerse themselves in virtual worlds and experience a simulation of reality.  The benefits of these digital approaches to the liberal arts are many: they range from increasing historical empathy, to changing attitudes and behaviors, to developing more effective strategies for therapy and pain management. In this track we will present examples from current scholarship showing cutting edge use cases and introduce free and readily available software for getting started creating virtual environments. 
+Presenting digital history often means blending traditional historical research with digital modes of public and material culture history. This 3D material-culture approach to digital history explores the use of simple digital tools to create digital models and exhibitions using basic cameras and software anyone can get their hands on. We’ll also talk about how to use 3D imaging as a pedagogical tool in history classrooms. 
 
 ### Tentative Schedule
 | Time | Description |
 | ------------- | ------------- |
-| Tuesday 8:00-9:00AM  | Breakfast and Introductions in OLRI 205  |
-| 9:00-10:15AM  | Introduction to VR, Generating virtual content, Museum Demo Project  |
-| 10:15-10:30AM  | Break |
-| 10:30-11:45AM  | Finding/Generating virtual content activity |
-| Wednesday 8:00-9:00AM  | Breakfast  |
-| 9:00-10:15AM  | Introduction to simple Unity3D scripts for interaction |
-| 10:15-10:30AM  | Break |
-| 10:30-11:45AM  | Activity and Show-and-Tell |
+| 9:00-9:30AM  | Introduction to material culture and 3D modeling terminology|
+| 9:30-10:30AM  | Photogrammetry with PhotoScan and uploading |
+| 10:30-10:45AM  | Break |
+| 10:45-12:00PM  | Cleaning models and exporting to print or play |
 
-### Software Installation
-The workshop will not be meeting in a computer lab. Please bring a laptop if possible. Given our limited time, please pre-install the following free software **before our first session at 9am on Tuesday**:
-- [Unity3D Personal Edition](http://unity3d.com/get-unity)
-- [Sketchup Make 2016](http://www.sketchup.com/download/all)
+### Preparation
+Please bring a laptop if possible. Given our limited time, please pre-install the following free software and sign up for accounts **before our first session at 9am on Thursday**:
 
-Please let us know if you run into trouble.
+- [PhotoScan](http://www.agisoft.com/downloads/installer/) The leading photogrammetry software.
+
+ A demo mode is available for free that will let you try everything except exporting and saving your model. If you want to explore more, they offer a [30-day free trial](http://www.agisoft.com/downloads/request-trial/) of the full Standard or full Professional editions. 
+    
+- [Sketchfab](https://sketchfab.com/) the leading location for sharing and displaying 3D models
+
+ Register for a free account, since we'll be uploading our models and exploring the viewer options.
+
+- [Meshlab](http://www.meshlab.net/) an open source set of tools for creating, processing and cleaning 3D models 
+
+OPTIONAL:
+- [Unity3D](http://unity3d.com/get-unity) a game engine that can be used to create interactive experiences with your models. 
+
+ We will demo a [Virtual Museum example project](www.medhieval.com/museum_demo), which you'll be able to download and follow along with, if desired.
+
+Please let me know if you run into trouble.
