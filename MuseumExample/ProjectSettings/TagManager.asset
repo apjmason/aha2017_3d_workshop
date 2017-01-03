@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Light
   - TextDisplay
+  - Artifact
   layers:
   - Default
   - TransparentFX
